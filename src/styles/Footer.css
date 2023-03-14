@@ -1,0 +1,18 @@
+@font-face {
+    font-family: 'TAEBAEKmilkyway';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2302@1.0/TAEBAEKmilkyway.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.FooterText {
+    font-family: 'TAEBAEKmilkyway';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 12px;
+    bottom: 0px;
+    position : absolute;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 10px;
+}

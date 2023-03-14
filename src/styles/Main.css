@@ -1,0 +1,24 @@
+@font-face {
+  font-family: "TheJamsil5Bold";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2302_01@1.0/TheJamsil5Bold.woff2")
+    format("woff2");
+  font-weight: 700;
+  font-style: normal;
+}
+
+body {
+  background: linear-gradient(180deg, #85c4ff 0%, rgba(115, 108, 190, 0) 100%);
+  background-repeat: no-repeat;
+}
+
+
+h1 {
+  font-family: "TheJamsil5Bold";
+  font-weight: 300;
+  font-size: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 18%;
+  margin-bottom: 20px;
+}
