@@ -6,12 +6,6 @@
   font-style: normal;
 }
 
-body {
-  background: linear-gradient(180deg, #85c4ff 0%, rgba(115, 108, 190, 0) 100%);
-  background-repeat: no-repeat;
-}
-
-
 h1 {
   font-family: "TheJamsil5Bold";
   font-weight: 300;

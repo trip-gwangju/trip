@@ -6,7 +6,7 @@ import CityBox from "../components/CityBox";
 function Main() {
   return (
     <>
-      <div className="wrapper">
+      <div>
         <h1>TRIP</h1>
         <CityBox />
         <Footer />
