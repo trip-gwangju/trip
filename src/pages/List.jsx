@@ -29,7 +29,7 @@ function List() {
   return (
     <div>
       <div className="listBox">
-        <h1>Trip</h1>
+        <h1>TRIP</h1>
         <div className="listContainer">
           <h1>관광지 목록</h1>
           <ul className="tourList" style={{ listStyle: "none" }}>
