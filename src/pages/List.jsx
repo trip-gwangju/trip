@@ -24,8 +24,6 @@ function List() {
     FetchData();
   }, []);
 
-  console.log(lists);
-
   return (
     <div>
       <div className="listBox">
