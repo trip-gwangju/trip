@@ -9,7 +9,6 @@
 }
 
 .tourInfoBox {
-  position: absolute;
   position : fixed;
   top:20%;
   width: 80vw;
