@@ -3,6 +3,7 @@ import "../styles/List.css";
 import Footer from "../components/Footer";
 import axios from "axios";
 import ListItem from "../components/ListItem";
+import { Link } from "react-router-dom";
 
 function List() {
   const API_KEY =
@@ -27,7 +28,7 @@ function List() {
   return (
     <div>
       <div className="listBox">
-        <h1>TRIP</h1>
+        <h1><Link to={'/'}>TRIP</Link></h1>
         <div className="listContainer">
           <h1>관광지 목록</h1>
           <ul className="tourList" style={{ listStyle: "none" }}>
