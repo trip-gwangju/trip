@@ -29,12 +29,17 @@ function DetailTourList() {
 
   return (
     <div className="tourInfo">
-      <h1 className="LOGO"><Link to={'/'} >TRIP</Link></h1>
+      <h1 className="LOGO">
+        <Link to={"/"}>TRIP</Link>
+      </h1>
       <div className="tourInfoBox">
         <h1 className="tourDesNm">{list[0]?.tourDestNm}</h1>
         <p>관광지 소개 : {list[0]?.tourDestIntro}</p>
         <p>전화번호 : {list[0]?.mngAgcTel}</p>
-        <p>주소 : </p>
+        <p>
+          주소 :
+           {list[0]?.addrRoad === "" ? list[0]?.addrJibun : list[0]?.addrRoad}{" "}
+        </p>
         <p>광관지 구분 : {list[0]?.sportsEnterFcltInfo}</p>
         <p>지정일자 : {list[0]?.dsgnDate}</p>
       </div>
