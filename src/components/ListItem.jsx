@@ -5,6 +5,7 @@ function ListItem({ list }) {
   if (list.addrRoad === "") {
     return (
       <div key={list.id} className="list">
+        <span>{list.id}</span>
         <Link to={`/list/${list.id}`}>
           <li className="listItem">
             {list.tourDestNm} ({list.addrJibun})
@@ -15,6 +16,7 @@ function ListItem({ list }) {
   } else {
     return (
       <div key={list.id} className="list">
+        <span>{list.id}</span>
         <Link to={`/list/${list.id}`}>
           <li className="listItem">
             {list.tourDestNm} ({list.addrRoad})

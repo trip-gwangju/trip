@@ -48,6 +48,15 @@ a {
   color: inherit;
 }
 
+.list span {
+  position: relative;
+  left: 1%;
+  font-weight: 600;
+  margin-left: 5px;
+  font-size: 1.1rem;
+  
+}
+
 @media screen and (max-width: 1300px) {
   .tourList .listItem {
     margin-top: 0;

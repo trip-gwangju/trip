@@ -1,15 +1,14 @@
 import React, { useEffect, useState } from "react";
-import "../styles/List.css";
-import Footer from "../components/Footer";
 import axios from "axios";
+import Footer from "../components/Footer";
 import ListItem from "../components/ListItem";
 import { Link } from "react-router-dom";
+import "../styles/List.css";
 
 function List() {
+  const [lists, setLists] = useState([]);
   const API_KEY =
     "YAHkF40pRCYGFbXP%2FXeCrB3nJ4B9G9DObwb71txY0kHNQ2bqTcpLBbUDW0wrx%2BQHAYSJiDg8uYoFvsSWKYl3Kw%3D%3D";
-
-  const [lists, setLists] = useState([]);
 
   const FetchData = async () => {
     await axios
@@ -28,7 +27,9 @@ function List() {
   return (
     <div>
       <div className="listBox">
-        <h1><Link to={'/'}>TRIP</Link></h1>
+        <h1>
+          <Link to={"/"}>TRIP</Link>
+        </h1>
         <div className="listContainer">
           <h1>관광지 목록</h1>
           <ul className="tourList" style={{ listStyle: "none" }}>
