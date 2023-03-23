@@ -1,7 +1,7 @@
 import React from "react";
 import Footer from "../components/Footer";
 import CityBox from "../components/CityBox";
-import "../styles/Main.css";
+import "../styles/main.css";
 
 function Main() {
   return (
