@@ -1,4 +1,4 @@
-import "../styles/Citybox.css";
+import "../styles/city.css";
 import { AiOutlineSend } from "react-icons/ai";
 import { Link } from "react-router-dom";
 
