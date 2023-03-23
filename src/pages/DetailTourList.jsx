@@ -2,7 +2,7 @@ import axios from "axios";
 import React, { useEffect, useState } from "react";
 import { Link, useParams } from "react-router-dom";
 import Footer from "../components/Footer";
-import "../styles/TourInfoBox.css";
+import "../styles/tourInfoBox.css";
 
 function DetailTourList() {
   const { tour_id } = useParams();
