@@ -3,7 +3,7 @@ import axios from "axios";
 import Footer from "../components/Footer";
 import ListItem from "../components/ListItem";
 import { Link } from "react-router-dom";
-import "../styles/List.css";
+import "../styles/list.css";
 
 function List() {
   const [lists, setLists] = useState([]);
