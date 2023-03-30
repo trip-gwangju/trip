@@ -8,7 +8,7 @@ import "../styles/list.css";
 function List() {
   const [lists, setLists] = useState([]);
   const API_KEY =
-    "YAHkF40pRCYGFbXP%2FXeCrB3nJ4B9G9DObwb71txY0kHNQ2bqTcpLBbUDW0wrx%2BQHAYSJiDg8uYoFvsSWKYl3Kw%3D%3D";
+    " ";
 
   const FetchData = async () => {
     await axios
