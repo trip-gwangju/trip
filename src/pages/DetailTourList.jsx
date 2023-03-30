@@ -10,7 +10,7 @@ function DetailTourList() {
   const [deList, setDeList] = useState([]);
 
   const API_KEY =
-    "YAHkF40pRCYGFbXP%2FXeCrB3nJ4B9G9DObwb71txY0kHNQ2bqTcpLBbUDW0wrx%2BQHAYSJiDg8uYoFvsSWKYl3Kw%3D%3D";
+    " ";
 
   useEffect(() => {
     axios
