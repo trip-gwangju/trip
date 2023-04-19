@@ -7,8 +7,7 @@ import "../styles/list.css";
 
 function List() {
   const [lists, setLists] = useState([]);
-  const API_KEY =
-    " ";
+  const API_KEY =process.env.REACT_APP_API_KEY;
 
   const FetchData = async () => {
     await axios
